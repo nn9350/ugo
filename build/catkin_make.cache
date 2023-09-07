@@ -1,0 +1,2 @@
+practice_mazes
+-DCATKIN_DEVEL_PREFIX=/home/dell/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/dell/catkin_ws/install -DCATKIN_WHITELIST_PACKAGES=practice_mazes -G Unix Makefiles

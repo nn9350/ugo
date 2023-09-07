@@ -1,0 +1,16 @@
+<launch>
+
+  <arg name="auto_start" default="true" />
+  
+  <include file="$(find mobile_robot)/launch/mobile_robot_slam.launch" />
+
+  <include file="$(find mobile_robot)/launch/mobile_robot_move_base.launch" />
+  <include file="$(find mobile_robot)/launch/amcl_diff.launch" />
+
+  <include file="$(find explore_lite)/launch/explore.launch">
+    <arg name="auto_start" value="$(arg auto_start)" />
+  </include>
+
+</launch>
+
+

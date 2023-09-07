@@ -1,0 +1,8 @@
+prefix=/home/dell/catkin_ws/install
+
+Name: demo_2
+Description: Description of demo_2
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib roscpp rospy std_msgs message_runtime
